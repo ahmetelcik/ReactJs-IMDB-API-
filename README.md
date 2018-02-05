@@ -9,9 +9,6 @@ Uygulamayı indirdikten sonra
 Önce bunu npm install yaparak gerekli bağımlılıkları kurunuz
 
 Gerekli ayarların yapılması için aşağıdaki yolu takip edin
-```
-src/Components/FilmComponent/FilmComponent.js içinde const API_KEY = 'xxx'; değeri geçersizdir. Kendine ait bir key alınız (http://www.omdbapi.com adresinden)
-```
 
 ```
 npm install
@@ -19,6 +16,11 @@ npm install
 
 sonra
 
+```
+src/Components/FilmComponent/FilmComponent.js içinde const API_KEY = 'xxx'; değeri geçersizdir. Kendine ait bir key alınız (http://www.omdbapi.com adresinden)
+```
+
+uygulamayı ayağa kaldırın
 ```
 npm start
 ```
