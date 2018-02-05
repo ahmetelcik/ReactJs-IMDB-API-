@@ -1,0 +1,122 @@
+body{
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 21px;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+}
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+
+.big-container{
+  margin-top: 45px!important;
+  width: 960px;
+  display: flex;
+  background: #f1f1f1;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+.film-container{
+  background: #fff;
+  margin: 20px;
+  width: 100%;
+
+}
+
+.film-container-title h1{
+  font-size: 18px;
+  font-weight: 300;
+  color: #666;
+  letter-spacing: 1.2px;
+}
+
+.film-container-search{
+  display: flex;
+  flex-direction: column;
+}
+
+.film-container-form-group{
+}
+.film-container-form-group input{
+  background: #f3f3f3;
+  padding: 12px 20px;
+  font-size: 13px;
+  border: 1px solid #ddd;
+  margin: 22px 0 0;
+  width: calc(100% - 88px);
+  outline: 0;
+}
+
+.film-container-submit-box{
+  margin: 22px 0;
+}
+.film-container-submit-box button{
+  background: #222222;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 9px 66px;
+  border-radius: 26px;
+  outline: 0;
+  cursor: pointer;
+}
+
+.film-container-list-box{
+  background: #444242;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.film-box{
+  background: #383838;
+  border-radius: 6px;
+  overflow: hidden;
+  width: calc(25% - 24px);
+  margin: 12px;
+}
+
+.film-box-title h4{
+  font-size: 11px;
+  font-weight: 300;
+}
+
+.findError{
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 16px;
+}
